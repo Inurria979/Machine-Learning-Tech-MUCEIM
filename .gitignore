@@ -1,0 +1,14 @@
+# Material local que no se publica (enunciados originales, apuntes, borradores de trabajo, temario...)
+ignore/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.venv-*/
+.ipynb_checkpoints/
+
+# Salidas regenerables de first-lab/tools/dump_notebook.py
+first-lab/analysis/
+first-lab/figures/
+*.tmp
